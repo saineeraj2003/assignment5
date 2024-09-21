@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Webpage</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .event-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .event-card {
+      width: calc(33.33% - 20px);
+      margin: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+    .event-card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .event-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .event-info {
+      padding: 10px;
+    }
+    .event-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .event-date {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    .event-description {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+    .event-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .event-button:hover {
+      background-color: #3E8E41;
+    }
+  </style>
+</head>
+<body>
+  <h1>Upcoming Events</h1>
+  
+  <div class="event-container">
+    <!-- Add your event cards here -->
+    
+    <div class="event-card">
+      <img class="event-image" src="https://traveltradejournal.com/wp-content/uploads/2021/08/Onam-640x478.jpg" alt="Event Image">
+      
+      <div class="event-info">
+        <div class="event-title">Onam</div>
+        <div class="event-date">Event date: 29/08/2023</div>
+        <div class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis maiores asperiores magni magnam a vero dolorum, error commodi earum nemo temporibus unde. Assumenda quos distinctio possimus adipisci, placeat tenetur? Enim?</div>
+        <a class="event-button" href="#">view details</a>
+      </div>
+    </div>
+    
+    <div class="event-card">
+      <img class="event-image" src="https://i.pinimg.com/originals/e2/28/6a/e2286ac46a21bf4dc45f79adc1660d53.jpg" alt="Event Image">
+      
+      <div class="event-info">
+        <div class="event-title">Freshers Day</div>
+        <div class="event-date">Event Date: 15/09/2023</div>
+        <div class="event-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias reprehenderit tempore quas accusamus quae atque soluta quia sapiente voluptas, dolorum neque perferendis voluptates asperiores modi similique eius fugiat saepe.</div>
+        <a class="event-button" href="#">view details</a>
+      </div>
+    </div>
+    
+    <div class="event-card">
+      <img class="event-image" src="https://deowgxgt4vwfe.cloudfront.net/uploads/1630392965_original.jpg" alt="Event Image">
+      
+      <div class="event-info">
+        <div class="event-title">vinayaka chavithi</div>
+        <div class="event-date">Event Date: 19/09/2023</div>
+        <div class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aspernatur. Ipsa repellat atque itaque. Vel id suscipit dolor, mollitia quidem enim nisi fuga incidunt explicabo assumenda sapiente doloribus harum nulla!</div>
+        <a class="event-button" href="#">view details</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+
